@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#1F1F1F" />
+    <meta
+      name="description"
+      content="VivaDecor - Transform your space with bespoke interior design solutions. From modern homes to luxurious spaces, we bring your vision to life with style and elegance. Explore our portfolio and discover how we can elevate your environment with creative and functional designs."
+    />
+    <!-- favicon -->
+    <link rel="icon" href="assets/favicon/favicon.ico" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- main stylesheet -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/app.js" defer></script>
+    <title>VivaDecore</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container">
+        <a href="#" class="logo-link"
+          ><img
+            class="logo-img"
+            src="assets/icons/Logo.svg"
+            alt="VivaDecor's logo"
+        /></a>
+        <nav class="header__nav"><!-- dynamically created nav --></nav>
+        <div class="menuBtns-wrapper">
+          <button aria-label="open menu" class="btn-openMenu">
+            <img
+              class="menu-icon"
+              src="assets/icons/menu.svg"
+              alt="burger menu icon"
+            />
+          </button>
+          <button aria-label="close menu" class="btn-closeMenu">
+            <img
+              class="close-icon"
+              src="assets/icons/close.svg"
+              alt="close menu icon"
+            />
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <section id="home" class="section-hero highlight">
+        <div class="hero container">
+          <div class="txt-box">
+            <h1 class="heading-primary">Interior Design</h1>
+            <p class="description">
+              Step into a world where the art of Interior Design is meticulously
+              crafted to bring together timeless elegance and cutting-edge
+              modern Innovation, Allowing you to transform your living spaces
+              into the epitome of luxury and sophistication
+            </p>
+            <a class="btn btn-cta" href="#">Start Project</a>
+            <ul class="hero__statList">
+              <li>
+                <strong class="stat-num"><span class="num">400</span>+</strong>
+                <p class="stat-type">Project Complete</p>
+              </li>
+              <li>
+                <strong class="stat-num"><span class="num">600</span>+</strong>
+                <p class="stat-type">Satisfied Clients</p>
+              </li>
+              <li>
+                <strong class="stat-num"><span class="num">100</span>+</strong>
+                <p class="stat-type">Unique Styles</p>
+              </li>
+            </ul>
+          </div>
+          <div class="img-box">
+            <picture class="hero__pic">
+              <source type="image/webp" srcset="assets/images/hero1.webp" />
+              <img
+                class="hero__img"
+                src="assets/images/hero1.png"
+                alt="An image of a chair"
+              />
+            </picture>
+            <picture class="hero__pic">
+              <source type="image/webp" srcset="assets/images/hero2.webp" />
+              <img
+                class="hero__img"
+                src="assets/images/hero2.png"
+                alt="An image of a sofa"
+              />
+            </picture>
+            <a class="btn-down" aria-label="scroll down" href="#subscribe">
+              <img
+                class="arrow-down"
+                src="assets/icons/arrow-down.svg"
+                alt="an arrow"
+              />
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="section-services">
+        <div class="container">
+          <h2 class="heading-secondary">Our Services</h2>
+          <ul class="services">
+            <li class="service">
+              <img
+                class="service-icon"
+                src="assets/icons/Lighting-design-icon.svg"
+                alt="icon of lights"
+              />
+              <div class="tex-box">
+                <p class="service-type">Lighting Design</p>
+                <p class="description">
+                  Achieve the perfect balance of ambient, task, and accent
+                  lighting for a functional atmosphere
+                </p>
+              </div>
+            </li>
+            <li class="service">
+              <img
+                class="service-icon"
+                src="assets/icons/Interior-design-icon.svg"
+                alt="icon of furniture"
+              />
+              <div class="tex-box">
+                <p class="service-type">Interior Design</p>
+                <p class="description">
+                  From concept to completion, we oversee every detail to bring
+                  your vision to life efficiently
+                </p>
+              </div>
+            </li>
+            <li class="service">
+              <img
+                class="service-icon"
+                src="assets/icons/Outdoor-design-icon.svg"
+                alt="icon of trees"
+              />
+              <div class="tex-box">
+                <p class="service-type">Outdoor Design</p>
+                <p class="description">
+                  Celebrate the changing seasons with our seasonal outdoor decor
+                  services
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="process" class="section-process">
+        <div class="container">
+          <div class="txt-box">
+            <h2 class="heading-secondary">
+              Designing Your Dream in Three Simple Steps
+            </h2>
+            <!-- dynamically created process steps -->
+          </div>
+          <picture class="img-box process__pic">
+            <source type="image/webp" srcset="assets/images/photo4.webp" />
+            <img
+              class="process__img"
+              src="assets/images/photo4.png"
+              alt="A photo of a Living room"
+            />
+          </picture>
+        </div>
+      </section>
+
+      <section id="subscribe" class="section-subscribe">
+        <h2 class="heading-secondary">
+          Subscribe to Our Newsletter for Design Insights
+        </h2>
+        <p class="description">
+          Be the first to discover trends, inspirations, and special offers as
+          we bring the world of design directly to your inbox
+        </p>
+        <form class="subscribtion-form">
+          <div class="form__item">
+            <label for="email" class="form__label">
+              <img
+                class="form__icon"
+                alt="envelope icon"
+                src="assets/icons/envelope.svg"
+              />
+            </label>
+            <input
+              id="email"
+              class="form__input"
+              type="email"
+              name="email"
+              placeholder="Enter your email address"
+            />
+          </div>
+          <button class="btn-cta form__btn" type="submit">Subscribe</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-col">
+          <img
+            class="footer-logo"
+            src="assets/icons/Logo-white.svg"
+            alt="VivaDecor's logo"
+          />
+          <p class="description">
+            VivaDecor your premier destination for luxury and modern interior
+            design
+          </p>
+          <ul class="socialLinks">
+            <li>
+              <a class="socialLink" href="#" aria-label="Facebook profile"
+                ><img
+                  class="socialIcon"
+                  alt="Facebook icon"
+                  src="assets/icons/facebook.svg"
+              /></a>
+            </li>
+            <li>
+              <a class="socialLink" href="#" aria-label="Twitter profile"
+                ><img
+                  class="socialIcon"
+                  alt="Twitter icon"
+                  src="assets/icons/twitter.svg"
+              /></a>
+            </li>
+            <li>
+              <a class="socialLink" href="#" aria-label="Instagram profile"
+                ><img
+                  class="socialIcon"
+                  alt="Instagram icon"
+                  src="assets/icons/instagram.svg"
+              /></a>
+            </li>
+            <li>
+              <a class="socialLink" href="#" aria-label="LinkedIn profile"
+                ><img
+                  class="socialIcon"
+                  alt="LinkedIn icon"
+                  src="assets/icons/linkedin.svg"
+              /></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <p class="footer__title">Our Services</p>
+          <ul class="footer__navList">
+            <li>Interior design</li>
+            <li>Outdoor design</li>
+            <li>Lightning design</li>
+            <li>Office design</li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <p class="footer__title">Support</p>
+          <ul class="footer__navList">
+            <li><a href="#">Reviews</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Press inquires</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <p class="footer__title">Get In Touch</p>
+          <ul class="footer__navList">
+            <li>info@vivadecor.com</li>
+            <li>Design Avenue Cityville, CA 90210 United States</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
